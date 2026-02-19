@@ -11682,3 +11682,54 @@ pre .code {
   display: block;
   margin-top: 10px;
 }
+
+/* ================= DARK MODE ================= */
+
+body.dark-mode {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+body.dark-mode .bg-white {
+  background-color: #1e1e1e !important;
+}
+
+body.dark-mode .bg-light {
+  background-color: #1a1a1a !important;
+}
+
+body.dark-mode .section {
+  background-color: #1a1a1a;
+}
+
+body.dark-mode .card,
+body.dark-mode .about-card,
+body.dark-mode .contact-form-card,
+body.dark-mode .contact-info-card,
+body.dark-mode .price-card {
+  background-color: #1e1e1e;
+  color: #f1f1f1;
+}
+
+body.dark-mode .navbar {
+  background-color: #1e1e1e !important;
+}
+
+body.dark-mode .footer {
+  background-color: #0d0d0d !important;
+}
+
+body.dark-mode .text-dark {
+  color: #f1f1f1 !important;
+}
+
+body.dark-mode .text-muted {
+  color: #bbbbbb !important;
+}
+
+body.dark-mode .form-control {
+  background-color: #2a2a2a;
+  color: #fff;
+  border-color: #444;
+}
+
