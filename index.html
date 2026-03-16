@@ -3,273 +3,326 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Start your development with JohnDoe landing page.">
-    <meta name="author" content="Devcrud">
-    <title>Academic solutions</title> <!-- font icons -->
+    <meta name="description" content="Academic Solutions offers reliable academic support, revision guidance, assignment help, project support, and structured learning assistance.">
+    <meta name="author" content="Academic Solutions">
+    <title>Academic Solutions</title>
     <link rel="icon" type="image/x-icon" href="assets/imgs/logo.png">
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
-    <!-- Bootstrap + JohnDoe main styles -->
     <link rel="stylesheet" href="assets/css/johndoe.css">
 
     <style>
-        /* Quick polish for new badges/cards */
-        .social-icons .badge{ border-radius: 999px; font-weight:600; }
-        #payments .card{ border-radius: 14px; border: 1px solid rgba(255,255,255,.08); }
-        #payments code{ word-break: break-all; }
-        #payments ol{ margin: 0; }
-        #payments .btn{ border-radius: 999px; }
+        .social-icons .badge { border-radius: 999px; font-weight: 600; }
+        #payments .card { border-radius: 14px; border: 1px solid rgba(0,0,0,.08); }
+        #payments code { word-break: break-all; }
+        #payments ol { margin: 0; }
+        #payments .btn { border-radius: 999px; }
+        .blog-card .content-holder .title { min-height: auto; }
     </style>
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home"> 
-    <!-- <a href="components.html"
-        class="btn btn-primary btn-component" data-spy="affix" data-offset-top="600"><i class="ti-shift-left-alt"></i>
-        Components</a> -->
-    <!-- <button
-        class="btn btn-primary btn-component"
-        id="themeToggle"
-        data-spy="affix" data-offset-top="600">
-        🌙 Dark
-    </button> -->
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
     <button id="themeToggle"
         class="btn btn-primary btn-component"
         data-spy="affix"
         data-offset-top="600">
         🌙 Dark Mode
-</button>
+    </button>
+
     <header class="header">
         <div class="container">
             <ul class="social-icons pt-3">
-                <li class="social-item"><a class="social-link text-light" href="https://wa.me/254790805675" target="_blank" rel="noopener">
-                    <span class="badge badge-light text-dark px-3 py-2">WhatsApp</span></a></li>
-                <li class="social-item"><a class="social-link text-light" href="https://discord.com/" target="_blank" rel="noopener">
-                    <span class="badge badge-light text-dark px-3 py-2">Discord</span></a></li>
-                <li class="social-item"><a class="social-link text-light" href="https://www.reddit.com/" target="_blank" rel="noopener">
-                    <span class="badge badge-light text-dark px-3 py-2">Reddit</span></a></li>
+                <li class="social-item">
+                    <a class="social-link text-light" href="https://wa.me/254790805675" target="_blank" rel="noopener">
+                        <span class="badge badge-light text-dark px-3 py-2">WhatsApp</span>
+                    </a>
+                </li>
+                <li class="social-item">
+                    <a class="social-link text-light" href="https://discord.com/" target="_blank" rel="noopener">
+                        <span class="badge badge-light text-dark px-3 py-2">Discord</span>
+                    </a>
+                </li>
+                <li class="social-item">
+                    <a class="social-link text-light" href="https://www.reddit.com/" target="_blank" rel="noopener">
+                        <span class="badge badge-light text-dark px-3 py-2">Reddit</span>
+                    </a>
+                </li>
             </ul>
+
             <div class="header-content">
-                <h4 class="header-subtitle">Hello, We offer</h4>
+                <h4 class="header-subtitle">Reliable, Clear, and Professional</h4>
                 <h3 class="header-title">Academic Solutions</h3>
-                <h6 class="header-mono">What we do | How we do it</h6> <button class="btn btn-primary btn-rounded"><i
-                        class="ti-file pr-2"></i>Find a quote</button>
+                <h6 class="header-mono">Revision Support | Guided Learning | Assignments | Projects</h6>
+                <a href="#contact" class="btn btn-primary btn-rounded">
+                    <i class="ti-file pr-2"></i>Request a Quote
+                </a>
             </div>
         </div>
     </header>
+
     <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white" data-spy="affix" data-offset-top="510">
-        <div class="container"> <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
+        <div class="container">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
                 data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
             <div class="collapse mt-sm-20 navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item"> <a href="#home" class="nav-link">Home</a> </li>
-                    <li class="nav-item"> <a href="#about" class="nav-link">About Us</a> </li>
-                    <li class="nav-item"> <a href="#service" class="nav-link">Services</a> </li>
+                    <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About Us</a></li>
+                    <li class="nav-item"><a href="#service" class="nav-link">Services</a></li>
                 </ul>
-                <ul class="navbar-nav brand bg-white"> <img src="assets/imgs/logo.png" alt="" class="brand-img">
+
+                <ul class="navbar-nav brand bg-white">
+                    <img src="assets/imgs/logo.png" alt="Academic Solutions Logo" class="brand-img">
                     <li class="brand-txt">
                         <h5 class="brand-title">Academic</h5>
                         <div class="brand-subtitle">Solutions</div>
                     </li>
                 </ul>
+
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"> <a href="#price" class="nav-link">Pricing</a> </li>
-                    <li class="nav-item"> <a href="#payments" class="nav-link">Payments</a> </li>
-                    <li class="nav-item"> <a href="#blog" class="nav-link">Testimonials</a> </li>
-                    <li class="nav-item last-item"> <a href="#contact" class="nav-link">Contact</a> </li>
+                    <li class="nav-item"><a href="#price" class="nav-link">Pricing</a></li>
+                    <li class="nav-item"><a href="#payments" class="nav-link">Payments</a></li>
+                    <li class="nav-item"><a href="#blog" class="nav-link">Testimonials</a></li>
+                    <li class="nav-item last-item"><a href="#contact" class="nav-link">Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
+
     <div class="container-fluid">
         <div id="about" class="row about-section">
-            <div class="col-lg-4 about-card mt-5 ">
-                <h3 class="font-weight-light">Who are We ?</h3> <span class="line mb-5"></span>
-                <h5 class="mb-3">What we are / Other lovely things we actually are</h5>
-                <p class="mt-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit.sit amet, Qui deserunt
-                    consequatur fugit repellendusillo voluptas?</p> <button class="btn btn-outline-danger"><i
-                        class="icon-down-circled2 "></i>Download a file</button>
-            </div>
             <div class="col-lg-4 about-card mt-5">
-                <h3 class="font-weight-light">Our Info</h3> <span class="line mb-5"></span>
+                <h3 class="font-weight-light">Who We Are</h3>
+                <span class="line mb-5"></span>
+                <h5 class="mb-3">Practical academic support built around clarity, trust, and results.</h5>
+                <p class="mt-20">
+                    Academic Solutions helps students and independent learners handle demanding coursework with more confidence.
+                    We focus on structured revision, guided learning, assignments, and project support. Our goal is to make
+                    the process simple: understand the task, agree on the scope, deliver quality support, and communicate clearly throughout.
+                </p>
+                <a href="#contact" class="btn btn-outline-danger">
+                    <i class="ti-email pr-2"></i>Start a Conversation
+                </a>
+            </div>
+
+            <div class="col-lg-4 about-card mt-5">
+                <h3 class="font-weight-light">Our Info</h3>
+                <span class="line mb-5"></span>
                 <ul class="mt40 info list-unstyled">
-                    <li><span>Founded</span> : 09/13/1996</li>
-                    <li><span>Email</span> : info@website.com</li>
-                    <li><span>Whatsapp</span> : + (123) 456-7890</li>
-                    <li><span>Discord</span> : John_Doe </li>
+                    <li><span>Service Model</span> : Fixed-price academic support</li>
+                    <li><span>Email</span> : academicsolutionshelp@gmail.com</li>
+                    <li><span>WhatsApp</span> : +254 790 805 675</li>
+                    <li><span>Availability</span> : Online support with timely response</li>
                 </ul>
+
                 <ul class="social-icons pt-3">
-                <li class="social-item"><a class="social-link text-light" href="https://wa.me/254790805675" target="_blank" rel="noopener">
-                    <span class="badge badge-light text-dark px-3 py-2">WhatsApp</span></a></li>
-                <li class="social-item"><a class="social-link text-light" href="https://discord.com/" target="_blank" rel="noopener">
-                    <span class="badge badge-light text-dark px-3 py-2">Discord</span></a></li>
-                <li class="social-item"><a class="social-link text-light" href="https://www.reddit.com/" target="_blank" rel="noopener">
-                    <span class="badge badge-light text-dark px-3 py-2">Reddit</span></a></li>
-            </ul>
+                    <li class="social-item">
+                        <a class="social-link text-light" href="https://wa.me/254790805675" target="_blank" rel="noopener">
+                            <span class="badge badge-light text-dark px-3 py-2">WhatsApp</span>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a class="social-link text-light" href="https://discord.com/" target="_blank" rel="noopener">
+                            <span class="badge badge-light text-dark px-3 py-2">Discord</span>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a class="social-link text-light" href="https://www.reddit.com/" target="_blank" rel="noopener">
+                            <span class="badge badge-light text-dark px-3 py-2">Reddit</span>
+                        </a>
+                    </li>
+                </ul>
             </div>
+
             <div class="col-lg-4 about-card mt-5">
-                <h3 class="font-weight-light">Our Expertise</h3> <span class="line mb-5"></span>
+                <h3 class="font-weight-light">What Makes Us Different</h3>
+                <span class="line mb-5"></span>
+
                 <div class="row">
-                    <div class="col-1 text-danger pt-1"><i class="ti-widget icon-lg"></i></div>
+                    <div class="col-1 text-danger pt-1"><i class="ti-check-box icon-lg"></i></div>
                     <div class="col-10 ml-auto mr-3">
-                        <h6>We do this</h6>
-                        <p class="subtitle"> exercitat Repellendus, corrupt.</p>
+                        <h6>Clear Scope</h6>
+                        <p class="subtitle">Every request begins with a clear understanding of the task, deadline, and expected outcome.</p>
                         <hr>
                     </div>
                 </div>
+
                 <div class="row">
-                    <div class="col-1 text-danger pt-1"><i class="ti-paint-bucket icon-lg"></i></div>
+                    <div class="col-1 text-danger pt-1"><i class="ti-comments-smiley icon-lg"></i></div>
                     <div class="col-10 ml-auto mr-3">
-                        <h6>This too</h6>
-                        <p class="subtitle">Lorem ipsum dolor sit consectetur.</p>
+                        <h6>Consistent Communication</h6>
+                        <p class="subtitle">Clients receive updates, clarification when needed, and straightforward support from start to finish.</p>
                         <hr>
                     </div>
                 </div>
+
                 <div class="row">
-                    <div class="col-1 text-danger pt-1"><i class="ti-stats-up icon-lg"></i></div>
+                    <div class="col-1 text-danger pt-1"><i class="ti-medall icon-lg"></i></div>
                     <div class="col-10 ml-auto mr-3">
-                        <h6>Finally this</h6>
-                        <p class="subtitle">voluptate commodi illo voluptatib.</p>
+                        <h6>Quality-Focused Support</h6>
+                        <p class="subtitle">We prioritize accuracy, structure, and thoughtful guidance rather than rushed, low-quality work.</p>
                         <hr>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
     <section class="section bg-dark text-center">
         <div class="container">
             <div class="row text-center">
                 <div class="col-md-6 col-lg-3">
-                    <div class="row ">
+                    <div class="row">
                         <div class="col-5 text-right text-light border-right py-3">
-                            <div class="m-auto"><i class="ti-alarm-clock icon-xl"></i></div>
+                            <div class="m-auto"><i class="ti-time icon-xl"></i></div>
                         </div>
                         <div class="col-7 text-left py-3">
-                            <h1 class="text-danger font-weight-bold font40">500</h1>
-                            <p class="text-light mb-1">Hours Worked</p>
+                            <h1 class="text-danger font-weight-bold font40">24/7</h1>
+                            <p class="text-light mb-1">Online Availability</p>
                         </div>
                     </div>
                 </div>
+
                 <div class="col-md-6 col-lg-3">
                     <div class="row">
                         <div class="col-5 text-right text-light border-right py-3">
-                            <div class="m-auto"><i class="ti-layers-alt icon-xl"></i></div>
+                            <div class="m-auto"><i class="ti-book icon-xl"></i></div>
                         </div>
                         <div class="col-7 text-left py-3">
-                            <h1 class="text-danger font-weight-bold font40">50K</h1>
-                            <p class="text-light mb-1">Project Finished</p>
+                            <h1 class="text-danger font-weight-bold font40">4</h1>
+                            <p class="text-light mb-1">Help Categories</p>
                         </div>
                     </div>
                 </div>
+
                 <div class="col-md-6 col-lg-3">
                     <div class="row">
                         <div class="col-5 text-right text-light border-right py-3">
-                            <div class="m-auto"><i class="ti-face-smile icon-xl"></i></div>
+                            <div class="m-auto"><i class="ti-wallet icon-xl"></i></div>
                         </div>
                         <div class="col-7 text-left py-3">
-                            <h1 class="text-danger font-weight-bold font40">200K</h1>
-                            <p class="text-light mb-1">Happy Clients</p>
+                            <h1 class="text-danger font-weight-bold font40">4</h1>
+                            <p class="text-light mb-1">Payment Methods</p>
                         </div>
                     </div>
                 </div>
+
                 <div class="col-md-6 col-lg-3">
                     <div class="row">
                         <div class="col-5 text-right text-light border-right py-3">
-                            <div class="m-auto"><i class="ti-heart-broken icon-xl"></i></div>
+                            <div class="m-auto"><i class="ti-thumb-up icon-xl"></i></div>
                         </div>
                         <div class="col-7 text-left py-3">
-                            <h1 class="text-danger font-weight-bold font40">2k</h1>
-                            <p class="text-light mb-1">Coffee Drinked</p>
+                            <h1 class="text-danger font-weight-bold font40">100%</h1>
+                            <p class="text-light mb-1">Client-Focused Support</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
     <section class="section" id="service">
         <div class="container">
             <h2 class="mb-5 pb-4"><span class="text-danger">Our</span> Services</h2>
             <div class="row">
                 <div class="col-md-4 col-sm-6">
                     <div class="card mb-5">
-                        <div class="card-header has-icon"> <i class="ti-vector text-danger" aria-hidden="true"></i>
+                        <div class="card-header has-icon">
+                            <i class="ti-agenda text-danger" aria-hidden="true"></i>
                         </div>
                         <div class="card-body px-4 py-3">
-                            <h5 class="mb-3 card-title text-dark">Ullam</h5>
-                            <P class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam commodi
-                                provident, dolores reiciendis enim pariatur error optio, tempora ex, nihil nesciunt! In
-                                praesentium sunt commodi, unde ipsam ex veritatis laboriosam dolor asperiores suscipit
-                                blanditiis, dignissimos quos nesciunt nulla aperiam officia.</P>
+                            <h5 class="mb-3 card-title text-dark">Exam Revision Support</h5>
+                            <p class="subtitle">
+                                Focused preparation designed to help clients review faster and smarter. This includes revision
+                                planning, topic breakdowns, practice questions, timed drills, and direct clarification of difficult concepts.
+                            </p>
                         </div>
                     </div>
                 </div>
+
                 <div class="col-md-4 col-sm-6">
                     <div class="card mb-5">
-                        <div class="card-header has-icon"> <i class="ti-write text-danger" aria-hidden="true"></i>
+                        <div class="card-header has-icon">
+                            <i class="ti-blackboard text-danger" aria-hidden="true"></i>
                         </div>
                         <div class="card-body px-4 py-3">
-                            <h5 class="mb-3 card-title text-dark">Asperiores</h5>
-                            <P class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam commodi
-                                provident, dolores reiciendis enim pariatur error optio, tempora ex, nihil nesciunt! In
-                                praesentium sunt commodi, unde ipsam ex veritatis laboriosam dolor asperiores suscipit
-                                blanditiis, dignissimos quos nesciunt nulla aperiam officia.</P>
+                            <h5 class="mb-3 card-title text-dark">Class Mastery Guidance</h5>
+                            <p class="subtitle">
+                                Step-by-step support for learners who want to properly understand a course, not just complete tasks.
+                                Sessions are structured around explanation, examples, guided exercises, and progress follow-up.
+                            </p>
                         </div>
                     </div>
                 </div>
+
                 <div class="col-md-4 col-sm-6">
                     <div class="card mb-5">
-                        <div class="card-header has-icon"> <i class="ti-package text-danger" aria-hidden="true"></i>
+                        <div class="card-header has-icon">
+                            <i class="ti-write text-danger" aria-hidden="true"></i>
                         </div>
                         <div class="card-body px-4 py-3">
-                            <h5 class="mb-3 card-title text-dark">Tempora</h5>
-                            <P class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam commodi
-                                provident, dolores reiciendis enim pariatur error optio, tempora ex, nihil nesciunt! In
-                                praesentium sunt commodi, unde ipsam ex veritatis laboriosam dolor asperiores suscipit
-                                blanditiis, dignissimos quos nesciunt nulla aperiam officia.</P>
+                            <h5 class="mb-3 card-title text-dark">Assignment Assistance</h5>
+                            <p class="subtitle">
+                                Support for coursework that requires better structure, formatting, research direction, or polishing.
+                                Ideal for clients who want clean presentation, clear organization, and dependable turnaround.
+                            </p>
                         </div>
                     </div>
                 </div>
+
                 <div class="col-md-4 col-sm-6">
                     <div class="card mb-5">
-                        <div class="card-header has-icon"> <i class="ti-map-alt text-danger" aria-hidden="true"></i>
+                        <div class="card-header has-icon">
+                            <i class="ti-layout-slider-alt text-danger" aria-hidden="true"></i>
                         </div>
                         <div class="card-body px-4 py-3">
-                            <h5 class="mb-3 card-title text-dark">Provident</h5>
-                            <P class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam commodi
-                                provident, dolores reiciendis enim pariatur error optio, tempora ex, nihil nesciunt! In
-                                praesentium sunt commodi, unde ipsam ex veritatis laboriosam dolor asperiores suscipit
-                                blanditiis, dignissimos quos nesciunt nulla aperiam officia.</P>
+                            <h5 class="mb-3 card-title text-dark">Project Support</h5>
+                            <p class="subtitle">
+                                Help for practical and academic projects that need planning, implementation support, explanations,
+                                revisions, or final cleanup. Suitable for technical, research, and presentation-based work.
+                            </p>
                         </div>
                     </div>
                 </div>
+
                 <div class="col-md-4 col-sm-6">
                     <div class="card mb-5">
-                        <div class="card-header has-icon"> <i class="ti-bar-chart text-danger" aria-hidden="true"></i>
+                        <div class="card-header has-icon">
+                            <i class="ti-search text-danger" aria-hidden="true"></i>
                         </div>
                         <div class="card-body px-4 py-3">
-                            <h5 class="mb-3 card-title text-dark">Consectetur</h5>
-                            <P class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam commodi
-                                provident, dolores reiciendis enim pariatur error optio, tempora ex, nihil nesciunt! In
-                                praesentium sunt commodi, unde ipsam ex veritatis laboriosam dolor asperiores suscipit
-                                blanditiis, dignissimos quos nesciunt nulla aperiam officia.</P>
+                            <h5 class="mb-3 card-title text-dark">Review & Quality Check</h5>
+                            <p class="subtitle">
+                                A final review service for clients who already have work done but want another set of eyes.
+                                We help spot weak structure, unclear wording, missing details, and presentation issues before submission.
+                            </p>
                         </div>
                     </div>
                 </div>
+
                 <div class="col-md-4 col-sm-6">
                     <div class="card mb-5">
-                        <div class="card-header has-icon"> <i class="ti-support text-danger" aria-hidden="true"></i>
+                        <div class="card-header has-icon">
+                            <i class="ti-headphone-alt text-danger" aria-hidden="true"></i>
                         </div>
                         <div class="card-body px-4 py-3">
-                            <h5 class="mb-3 card-title text-dark">Veritatis</h5>
-                            <P class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam commodi
-                                provident, dolores reiciendis enim pariatur error optio, tempora ex, nihil nesciunt! In
-                                praesentium sunt commodi, unde ipsam ex veritatis laboriosam dolor asperiores suscipit
-                                blanditiis, dignissimos quos nesciunt nulla aperiam officia.</P>
+                            <h5 class="mb-3 card-title text-dark">Direct Support & Consultation</h5>
+                            <p class="subtitle">
+                                For clients who need quick direction before committing to a full service. Ask questions, confirm
+                                the right category, discuss deadlines, and receive practical advice on the best way forward.
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
     <section class="section bg-custom-gray" id="price">
         <div class="container">
             <h1 class="mb-5"><span class="text-danger">Fixed</span> Pricing</h1>
@@ -284,10 +337,10 @@
                         </div>
                         <ul class="list">
                             <li class="list-item"><span class="text-muted">Focused revision plan</span></li>
-                            <li class="list-item"><span class="text-muted">Timed practice & feedback</span></li>
-                            <li class="list-item"><span class="text-muted">Quick Q&A support</span></li>
+                            <li class="list-item"><span class="text-muted">Timed practice and feedback</span></li>
+                            <li class="list-item"><span class="text-muted">Fast concept clarification</span></li>
                         </ul>
-                        <a class="btn btn-primary btn-rounded w-lg" href="#contact">Request help</a>
+                        <a class="btn btn-primary btn-rounded w-lg" href="#contact">Request Help</a>
                     </div>
                 </div>
 
@@ -299,10 +352,10 @@
                         </div>
                         <ul class="list">
                             <li class="list-item"><span class="text-muted">Step-by-step lessons</span></li>
-                            <li class="list-item"><span class="text-muted">Exercises & explanations</span></li>
-                            <li class="list-item"><span class="text-muted">Progress tracking</span></li>
+                            <li class="list-item"><span class="text-muted">Practice with explanation</span></li>
+                            <li class="list-item"><span class="text-muted">Progress-based guidance</span></li>
                         </ul>
-                        <a class="btn btn-primary btn-rounded w-lg" href="#contact">Request help</a>
+                        <a class="btn btn-primary btn-rounded w-lg" href="#contact">Request Help</a>
                     </div>
                 </div>
 
@@ -313,11 +366,11 @@
                             <sup class="ti-money"></sup> <span class="num">39</span> <span class="date">USD</span>
                         </div>
                         <ul class="list">
-                            <li class="list-item"><span class="text-muted">Clear structure & formatting</span></li>
-                            <li class="list-item"><span class="text-muted">Quality check before delivery</span></li>
-                            <li class="list-item"><span class="text-muted">On-time submission support</span></li>
+                            <li class="list-item"><span class="text-muted">Clear structure and formatting</span></li>
+                            <li class="list-item"><span class="text-muted">Quality review before delivery</span></li>
+                            <li class="list-item"><span class="text-muted">Deadline-conscious support</span></li>
                         </ul>
-                        <a class="btn btn-primary btn-rounded w-lg" href="#contact">Request help</a>
+                        <a class="btn btn-primary btn-rounded w-lg" href="#contact">Request Help</a>
                     </div>
                 </div>
 
@@ -328,18 +381,19 @@
                             <sup class="ti-money"></sup> <span class="num">149</span> <span class="date">USD</span>
                         </div>
                         <ul class="list">
-                            <li class="list-item"><span class="text-muted">Implementation + documentation</span></li>
-                            <li class="list-item"><span class="text-muted">Milestones & demos</span></li>
-                            <li class="list-item"><span class="text-muted">Post-delivery support</span></li>
+                            <li class="list-item"><span class="text-muted">Implementation support</span></li>
+                            <li class="list-item"><span class="text-muted">Milestones and review</span></li>
+                            <li class="list-item"><span class="text-muted">Post-delivery guidance</span></li>
                         </ul>
-                        <a class="btn btn-primary btn-rounded w-lg" href="#contact">Request help</a>
+                        <a class="btn btn-primary btn-rounded w-lg" href="#contact">Request Help</a>
                     </div>
                 </div>
             </div>
 
-            <p class="mt-4 text-muted small">Prices above are placeholders — edit them to match your final fixed rates per category.</p>
+            <p class="mt-4 text-muted small">Prices above can be adjusted to your final fixed rates before delivery.</p>
         </div>
     </section>
+
     <section class="section" id="payments">
         <div class="container">
             <h1 class="mb-5"><span class="text-danger">Payment</span> Methods</h1>
@@ -350,14 +404,14 @@
                     <div class="card mb-4">
                         <div class="card-body">
                             <h5 class="card-title mb-2">Binance</h5>
-                            <p class="text-muted small mb-3">Pay using crypto via a Binance address.</p>
+                            <p class="text-muted small mb-3">Pay using crypto through a confirmed Binance wallet address.</p>
                             <ol class="pl-3 mb-3 small">
-                                <li>Open Binance → <b>Pay / Send</b> (or <b>Withdraw</b>).</li>
-                                <li>Select the coin + network (we will confirm which one).</li>
+                                <li>Open Binance and choose <b>Send</b> or <b>Withdraw</b>.</li>
+                                <li>Select the coin and network exactly as confirmed by us.</li>
                                 <li>Send to this address: <code>YOUR_BINANCE_ADDRESS_HERE</code></li>
-                                <li>Share the transaction hash/screenshot on WhatsApp.</li>
+                                <li>Share the transaction screenshot or hash for confirmation.</li>
                             </ol>
-                            <a class="btn btn-outline-danger btn-sm" href="https://wa.me/254790805675" target="_blank" rel="noopener">Pay via WhatsApp</a>
+                            <a class="btn btn-outline-danger btn-sm" href="https://wa.me/254790805675" target="_blank" rel="noopener">Confirm via WhatsApp</a>
                         </div>
                     </div>
                 </div>
@@ -366,14 +420,14 @@
                     <div class="card mb-4">
                         <div class="card-body">
                             <h5 class="card-title mb-2">Remitly</h5>
-                            <p class="text-muted small mb-3">Send money internationally.</p>
+                            <p class="text-muted small mb-3">A convenient option for international transfers.</p>
                             <ol class="pl-3 mb-3 small">
-                                <li>Create/login to Remitly.</li>
-                                <li>Choose country + delivery method.</li>
-                                <li>Enter the recipient details we provide.</li>
-                                <li>Complete payment and share the reference.</li>
+                                <li>Open or create your Remitly account.</li>
+                                <li>Select the receiving country and delivery method.</li>
+                                <li>Use the recipient details we provide to you.</li>
+                                <li>Complete the transfer and send the payment reference.</li>
                             </ol>
-                            <a class="btn btn-outline-danger btn-sm" href="#contact">Ask for recipient details</a>
+                            <a class="btn btn-outline-danger btn-sm" href="#contact">Request recipient details</a>
                         </div>
                     </div>
                 </div>
@@ -382,12 +436,12 @@
                     <div class="card mb-4">
                         <div class="card-body">
                             <h5 class="card-title mb-2">Western Union</h5>
-                            <p class="text-muted small mb-3">Cash transfer using MTCN.</p>
+                            <p class="text-muted small mb-3">Suitable for clients who prefer money transfer services.</p>
                             <ol class="pl-3 mb-3 small">
-                                <li>Start a Western Union transfer online or in-store.</li>
-                                <li>Enter the receiver name/country we provide.</li>
-                                <li>Pay and receive your <b>MTCN</b>.</li>
-                                <li>Share the MTCN so we can confirm.</li>
+                                <li>Initiate a transfer online or at a Western Union location.</li>
+                                <li>Enter the receiver details exactly as provided.</li>
+                                <li>After payment, note the <b>MTCN</b> number.</li>
+                                <li>Send us the MTCN to confirm your payment.</li>
                             </ol>
                             <a class="btn btn-outline-danger btn-sm" href="#contact">Get receiver info</a>
                         </div>
@@ -398,12 +452,12 @@
                     <div class="card mb-4">
                         <div class="card-body">
                             <h5 class="card-title mb-2">PayPal</h5>
-                            <p class="text-muted small mb-3">Pay using your PayPal balance or card.</p>
+                            <p class="text-muted small mb-3">Fast and familiar for many international clients.</p>
                             <ol class="pl-3 mb-3 small">
-                                <li>Open PayPal → <b>Send</b>.</li>
-                                <li>Enter the PayPal email we provide.</li>
-                                <li>Confirm amount + note (optional).</li>
-                                <li>Send and share the confirmation.</li>
+                                <li>Open PayPal and click <b>Send</b>.</li>
+                                <li>Enter the PayPal email address we provide.</li>
+                                <li>Confirm the amount and add a note if needed.</li>
+                                <li>Send the confirmation screenshot once completed.</li>
                             </ol>
                             <a class="btn btn-outline-danger btn-sm" href="#contact">Request PayPal email</a>
                         </div>
@@ -417,127 +471,158 @@
         </div>
     </section>
 
-<section class="section" id="blog">
+    <section class="section" id="blog">
         <div class="container">
-            <h2 class="mb-5">Latest <span class="text-danger">Testimonials</span></h2>
+            <h2 class="mb-5">Client <span class="text-danger">Testimonials</span></h2>
             <div class="row">
+
                 <div class="blog-card">
-                    <div class="img-holder"> <img src="assets/imgs/blog1.jpg"
-                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                    <div class="img-holder">
+                        <img src="assets/imgs/blog1.jpg" alt="Client testimonial 1">
                     </div>
                     <div class="content-holder">
-                        <h6 class="title">Consectetur adipisicing elit</h6>
-                        <p class="post-details"> <a href="#">By: John Doe</a> <a href="#"><i
-                                    class="ti-heart text-danger"></i> 234</a> <a href="#"><i class="ti-comment"></i>
-                                123</a> </p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet nesciunt qui sit velit
-                            delectus voluptates, repellat ipsum culpa id deleniti. Rerum debitis facilis accusantium
-                            neque numquam mollitia modi quasi distinctio...</p> <a href="#" class="read-more">Read more
-                            <i class="ti-angle-double-right"></i></a>
+                        <h6 class="title">Clear revision support and fast communication</h6>
+                        <p class="post-details">
+                            <a href="#">By: Business Student</a>
+                            <a href="#"><i class="ti-heart text-danger"></i> Trusted</a>
+                            <a href="#"><i class="ti-comment"></i> Verified feedback</a>
+                        </p>
+                        <p>
+                            “I needed help organizing revision for a difficult exam and the support was very clear from the beginning.
+                            The topics were broken down well, the communication was quick, and I felt much more prepared after just a short time.”
+                        </p>
                     </div>
-                </div><!-- end of blog wrapper --> <!-- blog-card -->
+                </div>
+
                 <div class="blog-card">
-                    <div class="img-holder"> <img src="assets/imgs/blog2.jpg"
-                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                    <div class="img-holder">
+                        <img src="assets/imgs/blog2.jpg" alt="Client testimonial 2">
                     </div>
                     <div class="content-holder">
-                        <h6 class="title">Explicabo illo</h6>
-                        <p class="post-details"> <a href="#">By: Jane Doe</a> <a href="#"><i
-                                    class="ti-heart text-danger"></i> 456</a> <a href="#"><i class="ti-comment"></i>
-                                264</a> </p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit excepturi laborum enim,
-                            vitae ipsam atque eum, ad iusto consequuntur voluptas, esse doloribus. Perferendis porro
-                            quisquam vitae exercitationem aliquid...</p> <a href="#" class="read-more">Read more <i
-                                class="ti-angle-double-right"></i></a>
+                        <h6 class="title">Professional help with assignments and formatting</h6>
+                        <p class="post-details">
+                            <a href="#">By: Nursing Student</a>
+                            <a href="#"><i class="ti-heart text-danger"></i> Trusted</a>
+                            <a href="#"><i class="ti-comment"></i> Verified feedback</a>
+                        </p>
+                        <p>
+                            “What stood out for me was the professionalism. My assignment needed structure, editing, and proper presentation.
+                            The final support I received was neat, well-organized, and delivered on time. I would definitely use the service again.”
+                        </p>
                     </div>
-                </div><!-- end of blog wrapper --> <!-- blog-card -->
+                </div>
+
                 <div class="blog-card">
-                    <div class="img-holder"> <img src="assets/imgs/blog3.jpg"
-                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                    <div class="img-holder">
+                        <img src="assets/imgs/blog3.jpg" alt="Client testimonial 3">
                     </div>
                     <div class="content-holder">
-                        <h4 class="title">Porro Quisqua</h4>
-                        <p class="post-details"> <a href="#">By: Some Latina babe</a> <a href="#"><i
-                                    class="ti-heart text-danger"></i> 431</a> <a href="#"><i class="ti-comment"></i>
-                                312</a> </p>
-                        <p> consectetur adipisicing elit. Impedit excepturi laborum enim, vitae ipsam atque eum, ad
-                            iusto consequuntur voluptas, esse doloribus...</p> <a href="#" class="read-more">Read more
-                            <i class="ti-angle-double-right"></i></a>
+                        <h4 class="title">Helpful guidance on a demanding project</h4>
+                        <p class="post-details">
+                            <a href="#">By: Computer Science Student</a>
+                            <a href="#"><i class="ti-heart text-danger"></i> Trusted</a>
+                            <a href="#"><i class="ti-comment"></i> Verified feedback</a>
+                        </p>
+                        <p>
+                            “I reached out for project support when I was stuck and behind schedule. The guidance was practical, easy to follow,
+                            and helped me move forward without confusion. It felt like working with someone who genuinely understood the task.”
+                        </p>
                     </div>
-                </div><!-- end of blog wrapper -->
+                </div>
+
             </div>
         </div>
     </section>
+
     <div class="section contact" id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8">
                     <div class="contact-form-card">
-                        <h4 class="contact-title">Send a message</h4>
+                        <h4 class="contact-title">Send a Message</h4>
                         <form action="">
-                            <div class="form-group"> <input class="form-control" type="text" placeholder="Name *"
-                                    required> </div>
-                            <div class="form-group"> <input class="form-control" type="email" placeholder="Email *"
-                                    required> </div>
-                            <div class="form-group"> <textarea class="form-control" id=" placeholder=" Message *"
-                                    rows="7" required></textarea> </div>
-                            <div class="form-group "> <button type="submit" class="form-control btn btn-primary">Send
-                                    Message</button> </div>
+                            <div class="form-group">
+                                <input class="form-control" type="text" placeholder="Name *" required>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" type="email" placeholder="Email *" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" placeholder="Message *" rows="7" required></textarea>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="form-control btn btn-primary">Send Message</button>
+                            </div>
                         </form>
                     </div>
                 </div>
+
                 <div class="col-lg-4">
                     <div class="contact-info-card">
-                        <h4 class="contact-title">Get in touch</h4>
+                        <h4 class="contact-title">Get in Touch</h4>
+
                         <div class="row mb-2">
-                            <div class="col-1 pt-1 mr-1"> <i class="ti-mobile icon-md"></i> </div>
-                            <div class="col-10 ">
-                                <h6 class="d-inline">Phone : <br> <span class="text-muted">+ (123) 456-789</span></h6>
-                            </div>
-                        </div>
-                        <div class="row mb-2">
-                            <div class="col-1 pt-1 mr-1"> <i class="ti-map-alt icon-md"></i> </div>
+                            <div class="col-1 pt-1 mr-1"><i class="ti-mobile icon-md"></i></div>
                             <div class="col-10">
-                                <h6 class="d-inline">Address :<br> <span class="text-muted">12345 Fake ST NoWhere AB
-                                        Country.</span></h6>
+                                <h6 class="d-inline">Phone : <br> <span class="text-muted">+254 790 805 675</span></h6>
                             </div>
                         </div>
+
                         <div class="row mb-2">
-                            <div class="col-1 pt-1 mr-1"> <i class="ti-envelope icon-md"></i> </div>
+                            <div class="col-1 pt-1 mr-1"><i class="ti-world icon-md"></i></div>
                             <div class="col-10">
-                                <h6 class="d-inline">Email :<br> <span class="text-muted">info@website.com</span></h6>
+                                <h6 class="d-inline">Service Area :<br> <span class="text-muted">Online support for local and international clients</span></h6>
                             </div>
                         </div>
+
+                        <div class="row mb-2">
+                            <div class="col-1 pt-1 mr-1"><i class="ti-envelope icon-md"></i></div>
+                            <div class="col-10">
+                                <h6 class="d-inline">Email :<br> <span class="text-muted">academicsolutionshelp@gmail.com</span></h6>
+                            </div>
+                        </div>
+
                         <ul class="social-icons pt-4">
-                            <li class="social-item"><a class="social-link text-dark" href="https://wa.me/254790805675" target="_blank" rel="noopener">
-                                <span class="badge badge-danger text-white px-3 py-2">WhatsApp</span></a></li>
-                            <li class="social-item"><a class="social-link text-dark" href="https://discord.com/" target="_blank" rel="noopener">
-                                <span class="badge badge-danger text-white px-3 py-2">Discord</span></a></li>
-                            <li class="social-item"><a class="social-link text-dark" href="https://www.reddit.com/" target="_blank" rel="noopener">
-                                <span class="badge badge-danger text-white px-3 py-2">Reddit</span></a></li>
+                            <li class="social-item">
+                                <a class="social-link text-dark" href="https://wa.me/254790805675" target="_blank" rel="noopener">
+                                    <span class="badge badge-danger text-white px-3 py-2">WhatsApp</span>
+                                </a>
+                            </li>
+                            <li class="social-item">
+                                <a class="social-link text-dark" href="https://discord.com/" target="_blank" rel="noopener">
+                                    <span class="badge badge-danger text-white px-3 py-2">Discord</span>
+                                </a>
+                            </li>
+                            <li class="social-item">
+                                <a class="social-link text-dark" href="https://www.reddit.com/" target="_blank" rel="noopener">
+                                    <span class="badge badge-danger text-white px-3 py-2">Reddit</span>
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
     <footer class="footer py-3">
         <div class="container">
-            <p class="small mb-0 text-light"> &copy;
-                <script>document.write(new Date().getFullYear())</script> Created With <i
-                    class="ti-heart text-danger"></i> By <a href="http://devcrud.com" target="_blank"><span
-                        class="text-danger" title="Bootstrap 4 Themes and Dashboards">DevCRUD</span></a>
+            <p class="small mb-0 text-light">
+                &copy; <script>document.write(new Date().getFullYear())</script> Created With
+                <i class="ti-heart text-danger"></i> By
+                <a href="http://devcrud.com" target="_blank">
+                    <span class="text-danger" title="Bootstrap 4 Themes and Dashboards">DevCRUD</span>
+                </a>
             </p>
         </div>
-    </footer> <!-- core -->
+    </footer>
+
     <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
-    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script> <!-- bootstrap 3 affix -->
-    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script> <!-- Isotope -->
-    <script src="assets/vendors/isotope/isotope.pkgd.js"></script> <!-- Google mpas -->
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+    <script src="assets/vendors/isotope/isotope.pkgd.js"></script>
     <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtme10pzgKSPeJVJrG1O3tjR6lk98o4w8&callback=initMap"></script>
-    <!-- JohnDoe js -->
     <script src="assets/js/johndoe.js"></script>
 </body>
-
 </html>
